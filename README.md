@@ -14,22 +14,27 @@
 - **ips.txt**: Debes tener un archivo llamado `ips.txt` en el mismo directorio que el script. Este archivo debe contener una lista de direcciones IP, una por línea.
 
 Ejemplo de `ips.txt`:
+```
 192.168.1.101
 192.168.1.102
 192.168.1.103
-
+```
 ### Uso
 
 1. Clona el repositorio o descarga el script.
 2. Asegúrate de tener las claves SSH configuradas para los dispositivos remotos.
 3. Crea un archivo `ips.txt` en el mismo directorio que el script.
 4. Ejecuta el script:
+```
    bash botnet_manager.sh
+```
 5. Introduce el comando que quieres ejecutar en los dispositivos remotos cuando se te solicite.
 
 ### Ejemplo de Uso
+```
+---BotNet Manager---
+    -By S3RGI09-
 
---BotNet Manager--
 Introduce el comando a ejecutar en las IPs: uptime
 Conectando a 192.168.1.101...
 Comando ejecutado correctamente en 192.168.1.101.
@@ -37,7 +42,7 @@ Salida: 15:05:35 up  3:25,  2 users,  load average: 0.15, 0.10, 0.05
 Conectando a 192.168.1.102...
 Comando ejecutado correctamente en 192.168.1.102.
 Salida: 15:05:36 up  5:14,  1 user,  load average: 0.24, 0.22, 0.10
-
+```
 ### Licencia
 
 Este proyecto usa la MIT License, puedes verla en el archivo LICENSE, pero es una licencia muy permisiva, ¡Sientete libre de modificar y redistribuirlo!
