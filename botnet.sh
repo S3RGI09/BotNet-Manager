@@ -1,7 +1,7 @@
 #!/bin/bash
 
-echo "--BotNet Manager--"
-
+echo "---BotNet Manager---"
+echo "    -By S3RGI09-    "
 if [ ! -f ips.txt ]; then
     echo "El archivo ips.txt no se encontró."
     exit 1
