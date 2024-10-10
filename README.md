@@ -26,7 +26,7 @@ Ejemplo de `ips.txt`:
 3. Crea un archivo `ips.txt` en el mismo directorio que el script.
 4. Ejecuta el script:
 ```
-   bash botnet_manager.sh
+   bash botnet.sh
 ```
 5. Introduce el comando que quieres ejecutar en los dispositivos remotos cuando se te solicite.
 
